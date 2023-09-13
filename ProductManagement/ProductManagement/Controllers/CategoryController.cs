@@ -20,7 +20,6 @@ namespace ProductManagement.Controllers
 
         public async Task<IActionResult> postCategory([FromBody] Category category)
         {
-
             try
             {
 
