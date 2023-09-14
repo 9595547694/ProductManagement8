@@ -37,6 +37,7 @@ namespace ProductManagement.Controllers
         }
 
         [HttpGet]
+        [Route("GetProduct")]
         [Route("/GetProducts")]
         public IActionResult GetProducts()
         {
